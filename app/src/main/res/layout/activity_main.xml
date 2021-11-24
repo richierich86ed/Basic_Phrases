@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/hello_good_morning" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/good_afternoon" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="2"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="17dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/good_evening_goon_night" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/hi_bye" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/goodbye" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="2"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/please" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/see_you" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/see_you_later" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="2"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/see_you_soon" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:onClick="buttonTapped"
+                android:text="@string/see_you_tomorrow" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:onClick="buttonTapped"
+                android:paddingTop="22dp"
+                android:text="@string/thank_you_very_much" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="2"
+                android:onClick="buttonTapped"
+                android:text="@string/you_re_welcome" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="0"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/welcome" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="1"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/i_m_sorry" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_column="2"
+                android:onClick="buttonTapped"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:paddingBottom="0dp"
+                android:text="@string/excuse_me" />
+
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

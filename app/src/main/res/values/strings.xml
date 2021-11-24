@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Basic_Phrases</string>
+    <string name="hello_good_morning">Hello! / Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening_goon_night">Good Evening! / Goon Night!</string>
+    <string name="hi_bye">Hi! / Bye!</string>
+    <string name="goodbye">Goodbye</string>
+    <string name="please">Please</string>
+    <string name="see_you">See You</string>
+    <string name="see_you_later">See You Later</string>
+    <string name="see_you_soon">See You Soon</string>
+    <string name="see_you_tomorrow">See You Tomorrow</string>
+    <string name="thank_you_very_much">Thank You (very much)</string>
+    <string name="you_re_welcome">You\'re Welcome</string>
+    <string name="welcome">Welcome</string>
+    <string name="i_m_sorry">I\'m Sorry</string>
+    <string name="excuse_me">Excuse Me</string>
+</resources>
