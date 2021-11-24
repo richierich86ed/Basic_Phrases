@@ -28,36 +28,36 @@
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="0"
-                android:onClick="buttonTapped"
+                android:onClick="hello"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/hello_good_morning" />
+                android:text="Hello! / Good Morning!" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="1"
-                android:onClick="buttonTapped"
+                android:onClick="goodAfternoon"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/good_afternoon" />
+                android:text="Good Afternoon" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="2"
-                android:onClick="buttonTapped"
+                android:onClick="goodEvening"
                 android:paddingLeft="0dp"
                 android:paddingTop="17dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/good_evening_goon_night" />
+                android:text="Good Evening / Good Night" />
 
         </TableRow>
 
@@ -73,36 +73,36 @@
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="0"
-                android:onClick="buttonTapped"
+                android:onClick="hiBye"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/hi_bye" />
+                android:text="Hi! / Bye!" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="1"
-                android:onClick="buttonTapped"
+                android:onClick="goodbye"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/goodbye" />
+                android:text="Goodbye" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="2"
-                android:onClick="buttonTapped"
+                android:onClick="please"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/please" />
+                android:text="Please" />
 
         </TableRow>
 
@@ -118,36 +118,36 @@
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="0"
-                android:onClick="buttonTapped"
+                android:onClick="seeYou"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/see_you" />
+                android:text="See You" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="1"
-                android:onClick="buttonTapped"
+                android:onClick="seeYouLater"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/see_you_later" />
+                android:text="See You Later" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="2"
-                android:onClick="buttonTapped"
+                android:onClick="seeYouSoon"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/see_you_soon" />
+                android:text="See You Soon" />
 
         </TableRow>
 
@@ -163,25 +163,25 @@
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="0"
-                android:onClick="buttonTapped"
-                android:text="@string/see_you_tomorrow" />
+                android:onClick="seeYouTomorrow"
+                android:text="See You Tomorrow" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="1"
-                android:onClick="buttonTapped"
+                android:onClick="thankYou"
                 android:paddingTop="22dp"
-                android:text="@string/thank_you_very_much" />
+                android:text="Thank You (very much)" />
 
             <Button
                 android:id="@+id/button12"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="2"
-                android:onClick="buttonTapped"
-                android:text="@string/you_re_welcome" />
+                android:onClick="youreWelcome"
+                android:text="You're Welcome" />
 
         </TableRow>
 
@@ -197,36 +197,36 @@
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="0"
-                android:onClick="buttonTapped"
+                android:onClick="welcome"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/welcome" />
+                android:text="Welcome" />
 
             <Button
                 android:id="@+id/button14"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="1"
-                android:onClick="buttonTapped"
+                android:onClick="imSorry"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/i_m_sorry" />
+                android:text="I'm sorry" />
 
             <Button
                 android:id="@+id/button15"
                 android:layout_width="137dp"
                 android:layout_height="100dp"
                 android:layout_column="2"
-                android:onClick="buttonTapped"
+                android:onClick="excuseMe"
                 android:paddingLeft="0dp"
                 android:paddingTop="0dp"
                 android:paddingRight="0dp"
                 android:paddingBottom="0dp"
-                android:text="@string/excuse_me" />
+                android:text="Excuse Me" />
 
         </TableRow>
 
